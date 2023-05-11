@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" id="topContainer">
+            <div class="name"><h3>The Grand</h3></div>
+            
+            <div class="title"><h2>Bill Total</h2></div>
+            <div class="inputConatiner">
+                <span>Rs.</span>
+                <input type="text" onkeyup="calculateBill()" id="billTotalInput" placeholder="0.00">
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">Tip</div>
+            <div class="inputContainer">
+                <span>%</span>
+                <input type="text" onkeyup="calculateBill()" id="tipInput" placeholder="10">
+
+                
+            </div>
+        </div>
+        <div class="container" id="bottom">
+            <div class="splitContainer">
+                <div class="title">People</div>
+                <div class="controls">
+                    <span class="buttonContainer">
+                        <button class="splitButton" onclick="increasePeople()">
+                        <span class="buttonText">+</span>
+                    </button>
+                    </span>
+                    <span class="splitAmount" id="numberOfPeople">1</span>
+                    <span class="buttonConatiner">
+                        <button class="splitButton" onclick="decreasePeople()">
+                            <span class="buttonText">-</span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div class="totalContainer">
+                <div class="title">Total per Person</div>
+                <div class="total" id="perPersonTotal">Rs. 0.00</div>
+              </div>
+        </div>
+        <div class="devby">
+            <h1>Vishal Thakur</h1>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

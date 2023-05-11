@@ -1,0 +1,116 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+    /* font-size: 30px; */
+  }
+  body {
+    background: #8990ec;
+  }
+  .wrapper {
+    height: 360px;
+    width: 300px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+ #topContainer h2{
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 0px 90px;
+ }
+  #topContainer {
+    margin-top: 3rem;
+  }
+
+  .container {
+    margin-top: 2rem;
+  }
+  .title {
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+  }
+  .inputContainer {
+    background: #353959;
+    border-radius: 1.4rem;
+    padding: 0rem 0.8rem;
+    display: flex;
+    align-items: center;
+    /* font-size: 30px; */
+  }
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  .buttonContainer {
+    /* background: #8990ec; */
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  .splitButton {
+    background: rgb(47, 2, 47);
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    /* border: none; */
+
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  .buttonText {
+    color: #a0a2b5 !important;
+  }
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.9rem;
+  }
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .total {
+    font-size: 1.5rem;
+  }
+  .devby{
+    margin: 70px -46px;
+    font-size: 25px;
+    color: #8990ec;
+    border: 1px solid black;
+    border-radius: 20%;
+    width: 400px;
+  }
+  .devby>h1{
+    color: #3f4776;
+    width: 600px;
+    margin: 0px 34px;  
+}
+.name{
+    margin: -92px 41px;
+    position: absolute;
+    
+}
+.name>h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
